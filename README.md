@@ -1,5 +1,5 @@
 ##Gmail Filter Helper
-This is a extension that help you create Gmail spam filter more easily and quickly by one click
+This is a extension that helps you create Gmail spam filter more easily and quickly by one click
 
 
 ##TODO
