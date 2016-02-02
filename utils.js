@@ -81,7 +81,8 @@ function findElementByClassName(element, className) {
 		logMessage("get elements by className " + className)
 		if (elements && !isDataSourceEmpty(elements)) {
 			logMessage("use element className=" + className);
-			if (elements[0].innerText.match("@")) {
+			var text = elements[0].innerText || elements[0].textContent;
+			if (text.match("@")) {
 				element = elements[0];
 			}
 		}
@@ -93,7 +94,7 @@ function findEmailText() {
 	var emailTextView = undefined;
 	emailTextView = findElementByClassName(emailTextView, "gD");	
 	emailTextView = findElementByClassName(emailTextView, 'go');
-	return emailTextView.innerText;
+	return emailTextView.innerText || emailTextView.textContent;
 }
 
 

@@ -1,4 +1,9 @@
 {
+  "applications": {
+    "gecko": {
+      "id": "andrewallanwallace@gmail.com"
+    }
+  },
   "name": "Gmail Filter Helper",
   "description": "This is a extension that help you create Gmail spam filter more easily and quickly by one click",
   "version": "1.0",
